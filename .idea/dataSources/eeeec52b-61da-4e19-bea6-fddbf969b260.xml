@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="Rails Jira: development">
+  <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.41">
+    <root id="1">
+      <ServerVersion>9.6.24</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="Jira_development">
+      <Current>1</Current>
+    </database>
+    <database id="3" parent="1" name="Jira_test"/>
+    <database id="4" parent="1" name="LilJira_development"/>
+    <database id="5" parent="1" name="LilJira_test"/>
+    <database id="6" parent="1" name="pet_project_development"/>
+    <database id="7" parent="1" name="pet_project_test"/>
+    <database id="8" parent="1" name="postgres"/>
+    <database id="9" parent="1" name="study_project_development"/>
+    <database id="10" parent="1" name="study_project_test"/>
+    <database id="11" parent="1" name="template0"/>
+    <database id="12" parent="1" name="template1"/>
+    <database id="13" parent="1" name="widgety_development"/>
+    <database id="14" parent="1" name="widgety_test"/>
+    <schema id="15" parent="2" name="information_schema"/>
+    <schema id="16" parent="2" name="pg_catalog"/>
+    <schema id="17" parent="2" name="public">
+      <Current>1</Current>
+    </schema>
+  </database-model>
+</dataSource>
